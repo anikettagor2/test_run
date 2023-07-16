@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+
+}
+
+.container01 {
+    width: 100%;
+    top: -10px;
+}
+
+.naviagtion {
+    height: 70px;
+    width: 100%;
+    background-color: #606c7b;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+html {
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #ffffff0a;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #000000;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    
+}
+
+.naviagtion,
+.options {
+    display: flex;
+}
+
+.options .p {
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tektur', cursive;
+}
+
+.options .p:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+    
+}
+@media only screen and (250px <= width <= 400px) {
+
+
+    .options,.p{
+        border-radius: 10px;
+        display: none;
+    }
+ 
+}
+
+#se1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 20rem;
+    margin: 18px;
+    border-radius: 3px;
+    border: 0px solid white;
+    position: relative;
+}
+
+.sub {
+    position: relative;
+    left: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -3px;
+}
+@media only screen and (250px <= width <= 400px) {
+    .sub{
+     display: none;   
+    }
+
+   
+}
+
+
+.el1 {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tektur', cursive;
+}
+
+#submit {
+    height: 32px;
+    border-radius: 3px;
+}
+
+#submit:hover {
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.naviagtion2 {
+    height: 50px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+}
+
+.naviagtion2:hover{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    transition: all 0.3s ease-in-out;
+
+}
+.naviagtion2 ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.naviagtion2 li {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tektur', cursive;
+}
+
+.naviagtion2 li:hover {
+    color: orange;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+
+}
+@media only screen and (250px <= width <= 400px) {
+    .naviagtion2 ul{
+        display: none;
+    }
+
+   
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+
+}
+
+.container {
+    margin: auto;
+    width: 88%;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.041) 0px 22px 70px 4px;
+
+    background-color: rgba(255, 255, 255, .1);
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgba(255, 255, 255, .5);
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tektur', cursive;
+}
+
+@media only screen and (250px <= width <= 400px) {
+
+    .container {
+        display: block;
+        transition: all .4s ease-in-out;
+        height: 120rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+}
+.container:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.section01 {
+    margin: 20px;
+    height: 450px;
+    width: 230px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    filter: blur(3px);
+    cursor: pointer;
+}
+
+.section01:hover {
+    filter: blur(0px);
+    transition: all 0.3s ease-in-out;
+}
+
+#pic1 {
+    background: url("img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic1:hover {
+    box-shadow: rgb(255, 206, 10) 0px 22px 70px 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+#pic2 {
+    background: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic2:hover {
+    box-shadow: rgb(250, 42, 42) 0px 22px 70px 4px;
+}
+
+#pic3 {
+    background: url("https://img.freepik.com/free-photo/halloween-wallpaper-with-zombie-hand_23-2149122586.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "hello";
+}
+
+#pic3:hover {
+    box-shadow: rgb(18, 89, 231) 0px 22px 70px 4px;
+
+}
+
+#pic4 {
+    background: url("https://img.freepik.com/free-photo/abandoned-alley-psychiatric-hospital_1150-18953.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pic4:hover {
+    box-shadow: rgb(201, 207, 37) 0px 22px 70px 4px;
+
+}
+
+footer {
+    margin-top: 50px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tektur', cursive;
+}
+
+.foot_panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+
+
+.alo {
+    text-align: center;
+    margin: 50px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tektur', cursive;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(220, 220, 119, 0.515);
+    border-radius: 8px;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    color: white;
+}
+
+.alo:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(114, 120, 126, 0.56) 0px 22px 70px 4px;
+}
+
+.list {
+    margin: auto;
+    width: 88%;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tektur', cursive;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.block1:hover{
+    border: 2px solid white;
+    transition: all .4s ease-in-out;
+}
+@media only screen and (250px <= width <= 400px) {
+
+    .list {
+        display: block;
+        transition: all .4s ease-in-out;
+        height: 81rem;
+
+    }
+    .block1{
+        margin: 10px;
+        position: relative;
+        left: -10px;
+        width: 196px;
+        font-size: 10px;
+    }
+}
+   
+.block1 {
+    padding: 10px;
+    height: 350px;
+    width: 340px;
+    background-color: #555;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media only screen and (250px <= width <= 400px) {
+    .block1{
+        width: 187px;
+    }
+}
+
+.h {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.block1 ul {
+    list-style-type: none;
+}
+
+.block1 li {
+    margin: 15px;
+    display: flex;
+    position: relative;
+    left: -10px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+}
+.block1 li:hover{
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+
+    border: 1px solid whitesmoke;
+}
+
+/* media quirey */

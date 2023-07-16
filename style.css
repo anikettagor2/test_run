@@ -1,0 +1,83 @@
+*{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+body{
+    background-color: #fff;
+}
+.container{
+    height: 640px;
+    width: 310px;
+    background-color: rgba(128, 128, 128, 0.697);
+    margin: auto;
+    position: relative;
+    border: 3px solid white;
+    top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 54px 55px, rgba(0, 0, 0, 0.66) 0px -12px 30px, rgba(0, 0, 0, 0.685) 0px 4px 6px, rgba(0, 0, 0, 0.742) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container:hover{
+    animation: ef1 5s  1s infinite ;
+}
+@keyframes ef1 {
+    from
+    {
+        box-shadow: 0;
+    }
+    to
+    {
+
+
+    }
+}
+
+
+h1{
+    text-align: center;
+}
+.container,.data,label{
+font-size:19px;
+
+}
+#radio{
+    height: 20px;
+    position: relative;
+    top: 30px;
+    left: -133px;
+}
+.data p {
+    margin: 10px;
+    width: 190px;
+}
+.data{
+    width: 70px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.data,input{
+    border-radius: 4px;
+    border: 0px solid white;
+    width: 234px;
+    height: 33px;
+    margin: 4px;
+}
+.data button{
+    border-radius: 8px;
+    font-weight: 700;
+
+}
+#pass_show{
+    height: 10px;
+
+}
